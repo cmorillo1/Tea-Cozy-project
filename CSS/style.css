@@ -1,0 +1,116 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Header */ 
+.navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid seashell;
+    height: 69px;
+}
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img {
+    height: 50px;
+    position: relative;
+    right: 320px;
+    
+}
+li {
+    display: inline-block;
+    text-decoration: underline;
+    position: relative;
+    left: 320px;
+    margin: 20px;
+}
+
+/* Mission Section */ 
+#mission {
+    display: flex;
+    background-image: url(/resources/images/img-mission-background.jpg);
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+}
+.titlediv {
+    background-color: black;
+    height: 60px;
+    width: 1200px;
+    position: relative;
+    top: 300px;
+    
+}
+h2, h4 {
+    color: seashell;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Tea Section */
+.teacollection img {
+    height: 200px;
+    width: 300px;
+}
+.flavors {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.teaflavors {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    margin: 15px;
+}
+
+/* Location Section */
+.location-title {
+    background-color: transparent;
+    
+}
+.location-item{
+    background-image: url(/resources/images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    align-content: center;
+}
+.pin {
+    display: inline-flex;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    margin: 40px;
+    padding: 15px;
+    flex-flow: column;
+    line-height: 3;
+    opacity: 1;
+}
+
+
+/* Footer Section */ 
+.footer {
+    height: 200px;
+}
+.item {
+    display: flex;
+    flex-flow: column;
+    line-height: 3;
+}
+.copyright {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
